@@ -1,0 +1,9 @@
+{
+  "name": "simple",
+  "version": "0.0.1",
+  "description": "ie10 test.",
+  "homepage": "https://github.com/leoner/test-ie10",
+  "dependencies": {
+    "express": "*"
+  }
+}
