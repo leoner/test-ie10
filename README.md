@@ -10,6 +10,6 @@
  
 ## 错误分析 - web 服务器
  - 通过 `python -m SimpleHTTPServer` 测试没有问题
- - 通过 `static` 测试没有问题(`npm install node-static`)
+ - 通过 `static` 测试没有问题(`npm install node-static -g`)
  - 目前猜测可能是 `app.use(express.static(process.cwd()))
 ` 这个静态web 服务的问题.
