@@ -31,10 +31,11 @@ function getExternalIpAddress () {
             }
         })
     })
-
+/**
     if (addresses.length > 1) {
         return addresses[1].address
     }
+**/
     if (addresses.length > 0) {
         return addresses[0].address
     }
